@@ -12,7 +12,7 @@
   "env": {
     "SESSION_ID": {
       "description": "Enter your Adiza session id here; must start with QUEEN-ADIZA~",
-      "value": "KANGO~5ntEgSCZ#PH-alLI1KYCnChm4aftk8m9HgbSxbYsfTe-arSdIvE4",
+      "value": "",
       "required": false
     },
     "BOT_NAME": {
