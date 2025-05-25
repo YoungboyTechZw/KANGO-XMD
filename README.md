@@ -186,11 +186,7 @@ npm start
 
 ## `FOR TERMUX`
 ```bash
-apt update -y && apt upgrade -y && pkg update -y && pkg upgrade -y && pkg install bash -y && pkg install libwebp -y && pkg install git -y && pkg install nodejs -y && pkg install ffmpeg -y && pkg install wget -y && pkg install imagemagick -y && pkg install yarn && termux-setup-storage
-cd /sdcard
-cd bot folder name
-yarn install
-npm start
+pkg update && pkg upgrade -y && apt-get install -y bash libwebp git nodejs ffmpeg wget imagemagick && git clone https://github.com/OfficialKango/KANGO-XMD && cd KANGO-XMD && npm install && npm start
 ```
 
 ## `FOR 24/7 ACTIVATION PM2 (TERMUX)`
